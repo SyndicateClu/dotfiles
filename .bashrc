@@ -59,8 +59,11 @@ fi
 # load script for git-prompt info
 source $HOME/.config/shconf/git-prompt.sh
 GIT_PS1_SHOWDIRTYSTATE=1
+GIT_PS1_SHOWSTASHSTATE=1
 GIT_PS1_SHOWUNTRACKEDFILES=1
 GIT_PS1_SHOWUPSTREAM="auto"
+# GIT_PS1_STATESEPARATOR="-"
+GIT_PS1_HIDE_IF_PWD_IGNORED=1
 
 if [ "$color_prompt" = yes ]; then
 #    PS1='\u@\h:\w\$'
