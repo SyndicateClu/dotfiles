@@ -138,5 +138,5 @@ fi
 export STARSHIP_CONFIG=~/.config/starship/starship.toml
 eval "$(starship init bash)"
 
-# Run Neofetch
-neofetch
+# Run custom script
+~/.scripts/termst.sh
