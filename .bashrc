@@ -139,4 +139,4 @@ export STARSHIP_CONFIG=~/.config/starship/starship.toml
 eval "$(starship init bash)"
 
 # Run custom script
-~/.scripts/termst.sh
+~/.scripts/encom.sh
