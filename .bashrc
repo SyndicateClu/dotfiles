@@ -138,5 +138,8 @@ fi
 export STARSHIP_CONFIG=~/.config/starship/starship.toml
 eval "$(starship init bash)"
 
-# Run custom script
+# Update Path
+export PATH=/home/rob/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games
+
+# Run Custom Script
 ~/.scripts/encom.sh
