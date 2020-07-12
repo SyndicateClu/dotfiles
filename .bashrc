@@ -109,6 +109,7 @@ alias rm='rm -i'
 alias cp='cp -i'
 # Other
 alias fd='fdfind -I'
+alias reload='clear ; exec bash'
 
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert
