@@ -143,4 +143,4 @@ eval "$(starship init bash)"
 export PATH=/home/rob/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/home/rob/.scripts
 
 # Run Custom Script
-~/.scripts/encom.sh
+~/.scripts/encom
