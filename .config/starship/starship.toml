@@ -1,0 +1,28 @@
+# Don't print a new line at the start of the prompt
+add_newline = false
+
+[username]
+show_always = false
+disabled = false
+
+[hostname] 
+ssh_only = false
+disabled = false
+style = "green"
+
+[directory]
+truncation_length = 1
+truncate_to_repo = false
+prefix = "in "
+style = "cyan"
+disabled = false
+fish_style_pwd_dir_length = 1
+
+[git_branch]
+style = "purple"
+
+[git_status]
+style = "red"
+
+[cmd_duration]
+disabled = false
